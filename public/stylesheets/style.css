@@ -1,0 +1,35 @@
+    @import url('https://fonts.googleapis.com/css?family=Pacifico');
+    @import url('https://fonts.googleapis.com/css?family=Poppins');
+    .navbar {
+        background-color: #DB162F;
+        height: 90px;
+    }
+    
+    .navbar-toggler {
+        color: white;
+    }
+    
+    h1 {
+        font-family: 'Pacifico', cursive;
+        color: #E68632;
+        text-align: center;
+        padding: 20px;
+    }
+    
+    body {
+        font-family: 'Poppins', sans-serif
+    }
+    
+    .nav-item>.nav-link {
+        color: white;
+        text-transform: uppercase;
+        font-size: large;
+        letter-spacing: 1.5px;
+        padding-right: 40px;
+    }
+    
+    element.style {}
+    
+    .navbar-light .navbar-nav .nav-link {
+        color: white;
+    }
