@@ -105,15 +105,21 @@
     }
 
     .footer {
-        background-image: url("../images/footer.jpg");
-        height: 400px;
+        background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url("../images/footer.jpg");
+        height: 350px;
         background-size: cover;
         padding: 20px;
         text-align: center;
-        color: white;
-
     }
-    .footerOverlay{
+
+    .footerOverlay {
         z-index: 2;
         background-color: rgba(0, 0, 0, 0.5);
+    }
+
+    .footerH{
+        color: white;
+    }
+    li, p{
+        color: gray;
     }
