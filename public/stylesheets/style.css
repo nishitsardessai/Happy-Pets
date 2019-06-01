@@ -4,22 +4,22 @@
         background-color: #DB162F;
         height: 90px;
     }
-    
+
     .navbar-toggler {
         color: white;
     }
-    
-    h1 {
+
+    h1, .card-title {
         font-family: 'Pacifico', cursive;
         color: #E68632;
         text-align: center;
         padding: 20px;
     }
-    
+
     body {
         font-family: 'Poppins', sans-serif
     }
-    
+
     .nav-item>.nav-link {
         color: white;
         text-transform: uppercase;
@@ -27,9 +27,93 @@
         letter-spacing: 1.5px;
         padding-right: 40px;
     }
-    
-    element.style {}
-    
+
     .navbar-light .navbar-nav .nav-link {
         color: white;
+    }
+
+    .card {
+        margin: 20px;
+    }
+
+    .rounded-circle {
+        margin: auto;
+    }
+
+    .cardAge {
+        font-weight: bold;
+        text-align: center;
+        color: #DB162F;
+    }
+
+    .aboutus, .card-text {
+        color: gray;
+    }
+
+    .slick-dots {
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        padding: 1rem 0;
+        list-style-type: none;
+    }
+
+    .slick-dots>li {
+        margin: 0 0.25rem;
+    }
+
+    .slick-dots>li>button {
+        display: block;
+        width: 1rem;
+        height: 1rem;
+        padding: 0;
+        border: none;
+        border-radius: 100%;
+        background-color: #E68632;
+        text-indent: -9999px;
+    }
+
+    .slick-dots>.slick-active button {
+        background-color: #DB162F;
+        width: 50px;
+        border-radius: 20px;
+    }
+
+    .mapouter {
+        /* position: relative; */
+        text-align: right;
+        /* width: 100%; */
+    }
+
+    .gmap_canvas {
+        overflow: hidden;
+        background: none !important;
+        border: 2px solid #DB162F;
+    }
+
+    .customForm {
+        padding: 20px;
+    }
+
+    i {
+        padding: 15px 30px 0 15px;
+    }
+
+    .btn {
+        background-color: #E68632;
+        color: white;
+    }
+
+    .footer {
+        background-image: url("../images/footer.jpg");
+        height: 400px;
+        background-size: cover;
+        padding: 20px;
+        text-align: center;
+        color: white;
+
+    }
+    .footerOverlay{
+        z-index: 2;
+        background-color: rgba(0, 0, 0, 0.5);
     }

@@ -9,6 +9,8 @@
     <!-- Bootstrap CSS -->
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+
     <link rel="stylesheet" href="./public/stylesheets/style.css">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -22,12 +24,14 @@
     <nav class="navbar navbar-expand-sm navbar-light">
 
         <a class="navbar-brand" href="#">
-            <img src="./public/images/logo.jpg" class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}" alt="">
+            <img src="./public/images/logo.jpg"
+                class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}" alt="">
         </a>
 
-        <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
+        <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
+            aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
         <div class="collapse navbar-collapse" id="collapsibleNavId">
             <ul class="navbar-nav ml-auto mt-2 mt-lg-0 ">
                 <li class="nav-item ">
@@ -49,15 +53,197 @@
         </div>
     </nav>
 
-    <img src="./public/images/header.jpg" class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}" alt="">
+    <img src="./public/images/header.jpg"
+        class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}" alt="">
     <h1>Explore the happy faces</h1>
 
+    <div class="slickSlider">
+        <div class="card">
+            <img src="./public/images/dog.jpg" class="rounded-circle" alt="...">
+            <div class="card-body">
+                <h3 class="card-title">Card title</h3>
+                <h6 class="cardAge">Age: 2 Months</h6>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's
+                    content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="./public/images/dog.jpg" class="rounded-circle" alt="..s.">
+            <div class="card-body">
+                <h3 class="card-title">Card title</h3>
+                <h6 class="cardAge">Age: 2 Months</h6>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's
+                    content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="./public/images/dog.jpg" class="rounded-circle" alt="...">
+            <div class="card-body">
+                <h3 class="card-title">Card title</h3>
+                <h6 class="cardAge">Age: 2 Months</h6>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's
+                    content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="./public/images/dog.jpg" class="rounded-circle" alt="...">
+            <div class="card-body">
+                <h3 class="card-title">Card title</h3>
+                <h6 class="cardAge">Age: 2 Months</h6>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's
+                    content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="./public/images/dog.jpg" class="rounded-circle" alt="...">
+            <div class="card-body">
+                <h3 class="card-title">Card title</h3>
+                <h6 class="cardAge">Age: 2 Months</h6>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's
+                    content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
+    </div>
+    <div class="aboutus container">
+        <h1>About Us</h1>
+
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+            industry's
+            standard
+            dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a
+            type
+            specimen
+            book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining
+            essentially
+            unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum
+            passages,
+            and more
+            recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+        </p>
+    </div>
+
+    <div class="stories">
+        <h1>Adoption Stories</h1>
+        <div class="slickSlider">
+            <div class="card">
+                <img src="./public/images/story1.jpg" class="img-thumbnail" alt="...">
+            </div>
+            <div class="card">
+                <img src="./public/images/story2.jpg" class="img-thumbnail" alt="...">
+            </div>
+            <div class="card">
+                <img src="./public/images/story3.jpg" class="img-thumbnail" alt="...">
+            </div>
+            <div class="card">
+                <img src="./public/images/story4.jpg" class="img-thumbnail" alt="...">
+            </div>
+        </div>
+
+        <div class="meet">
+            <h1>Would you like to meet these happy facces?</h1>
+            <div class="row container-fluid">
+                <div class="col-md-4 col-lg-4">
+                    <form class="customForm">
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Name</label>
+                            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                                placeholder="Enter name">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp" placeholder="Enter email">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1">Mobile No.</label>
+                            <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Mobile No.">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1">Mobile No.</label>
+                            <textarea rows="5" type="text" class="form-control" id="exampleInputPassword1"
+                                placeholder="Type your message here..."></textarea>
+                        </div>
+                        <div class="form-group form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                        </div>
+                        <button type="submit" class="btn">Submit</button>
+                    </form>
+                </div>
+                <div class="col-md-8 col-lg-8">
+                    <div class="mapouter">
+                        <div class="gmap_canvas">
+                            <iframe width="100%" height="450" id="gmap_canvas"
+                                src="https://maps.google.com/maps?q=goa&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                                frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+                            </iframe>
+                        </div>
+
+                    </div>
+                    <p> <i class="fa fa-envelope fa-lg" aria-hidden="true"></i>info@yourcompany.com</p>
+                    <p> <i class="fa fa-phone fa-lg" aria-hidden="true"></i>+01 123-456-7890</p>
+                    <p> <i class="fa fa-map-marker fa-lg" aria-hidden="true"></i>H no 75 F 9, Burkshie London, UK</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer footerOverlay">
+        <div class="border">
+            <h1 class="footerh1">See you at Happy Pets!</h1>
+            <div class="row">
+                <div class="col-md-4">
+                    <h4>About Happy Pets</h4>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                        the industry's standard
+                        dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it
+                        to make a type specimen
+                        book. It has survived not only five centuries</p>
+                </div>
+                <div class="col-md-4">
+                    <h4>Important Links</h4>
+                    <ul>
+                        <li>About Us</li>
+                        <li>Fundraising</li>
+                        <li>Furriends</li>
+                        <li>Volunteers</li>
+                        <li>Get in Touch</li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h4>Connect on social Media</h4>
+                    <i class="fa fa-instagram fa-lg" aria-hidden="true"></i>
+                    <i class="fa fa-facebook fa-lg" aria-hidden="true"></i>
+                    <i class="fa fa-facebook fa-lg" aria-hidden="true"></i>
+                    <i class="fa fa-facebook fa-lg" aria-hidden="true"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- jQuery -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://code.jquery.com/jquery-migrate-3.0.1.min.js"
+        integrity="sha256-F0O1TmEa4I8N24nY0bya59eP6svWcshqX1uzwaWC4F4=" crossorigin="anonymous"></script>
     <!-- Popper JS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <!-- Bootstrap -->
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="https://use.fontawesome.com/63affef03b.js"></script>
+    <script src="./public/scripts/script.js" type="text/javascript"></script>
+
 </body>
 
 </html>
