@@ -1,17 +1,17 @@
 $(document).ready(function () {
     $('.slickSlider').slick({
-        dots: true,
         infinite: false,
         speed: 300,
         slidesToShow: 3.5,
         slidesToScroll: 1,
         arrows: false,
+        dots:true,
         responsive: [
             {
                 breakpoint: 1024,
                 settings: {
                     slidesToShow: 3.5,
-                    slidesToScroll: 3,
+                    slidesToScroll: 1,
                     infinite: true,
                     dots: true
                 }
@@ -19,14 +19,15 @@ $(document).ready(function () {
             {
                 breakpoint: 600,
                 settings: {
-                    slidesToShow: 2,
-                    slidesToScroll: 2
+                    slidesToShow: 2.5,
+                    slidesToScroll: 1,
+                    dots:true
                 }
             },
             {
                 breakpoint: 480,
                 settings: {
-                    slidesToShow: 1,
+                    slidesToShow: 1.5,
                     slidesToScroll: 1
                 }
             }
@@ -36,3 +37,5 @@ $(document).ready(function () {
         ]
     });
 });
+
+AOS.init();
